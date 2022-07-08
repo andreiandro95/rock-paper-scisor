@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    widows: 70vw;
+    height: 20vh;
+    margin: auto;
+}
+.header h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 5rem;
+    padding: 2rem 0;
+}
+.images-text{
+    width: 70vw;
+    margin: auto;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+.images img{
+    width: 150px;
+}
+.images img:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 138px 0px rgba(0,0,255,1);
+}
+.table-score table{
+    margin: auto;
+    font-size: 1.3rem;
+}
+th, td{
+    padding: .3rem 1rem;
+    text-align: center;
+}
+.choose{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+    padding: 3rem 0;
+}
+.image-you-choose, .image-computer-choose{
+    width: 150px;
+}
